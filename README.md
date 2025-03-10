@@ -1,4 +1,4 @@
-# `📖` ByteCraft.h - The Ultimate Encoding & Decoding Toolbox! 🚀  
+# `📖` bytecraft.h - The Ultimate Encoding & Decoding Toolbox! 🚀  
 
 Welcome to **ByteCraft** 🛠️, a C library designed for encoding and decoding various formats: binary, hexadecimal, base64, and more! 🎉  
 
