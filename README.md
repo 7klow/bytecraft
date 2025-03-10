@@ -12,10 +12,10 @@ Simply add `bytecraft.h` and `bytecraft.c` to your project, then include the hea
 
 ## `🎯` Features
 
-  - 🔢 Binary Encoding & Decoding
-  - 🧮 Hexadecimal Conversion
-  - 🔡 Base64 Support
-  - 📜 More encodings coming soon!  
+  - `🔢` Binary Encoding & Decoding
+  - `🧮` Hexadecimal Conversion
+  - `🔡` Base64 Support
+  - `📜` More encodings coming soon!  
 
 
 ## `🚀` Usage  
@@ -37,7 +37,7 @@ Simply add `bytecraft.h` and `bytecraft.c` to your project, then include the hea
 ```
 
 ## `🤝` Contributing  
-Contributions are welcome! Open an issue or submit a pull request to add new features. 🛠️  
+Contributions are welcome! Open an issue or submit a pull request to add new features. `🛠️ ` 
 
 ## `📝` License  
 ```This project is licensed under the MIT License 📜.```
