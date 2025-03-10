@@ -1,12 +1,38 @@
 #ifndef BYTECRAFT_H
 #define BYTECRAFT_H
 
-// BINARY ENCODING
-int  detectByteSize (unsigned int num);                           // Détecte la taille en octets d'un entier
-void convertBinary  (const void *input, int size, char *output);  // Convertit n'importe quel type (char, int, string) en binaire
-void decodeBinary   (const char *binary, char *output);           // Décode une chaîne binaire en texte (caractères ASCII)
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ BINARY ENCODING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-// USAGE: convertBinary(&number, sizeof(number), binaryOutput);
-// USAGE: decodeBinary(binaryOutput, decodedOutput);
+void convertBinary  (const char *input, char *output);  // Converts a string to binary
+void decodeBinary   (const char *binary, char *output); // Decodes a binary string into text (ASCII characters)
+
+// USAGE: convertBinary("Hello"     , binaryOutput);
+//                        |> String      |
+//                                       |> String that stores encoded bits
+
+// USAGE: decodeBinary (binaryOutput, decodedOutput);
+//                       |               |> String that stores decoded text
+//                       |                   
+//                       |> Binary input (String that stores encoded bits)
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ HEXA ENCODING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ BASE64 ENCODING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 #endif
