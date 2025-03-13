@@ -22,8 +22,8 @@ Simply add `bytecraft.h` and `bytecraft.c` to your project, then include the hea
 
 ### `🔢` Binary Conversion  
 ```c
-  convertBinary(&number, sizeof(number), binaryOutput); // to binary
-  decodeBinary(binaryOutput, decodedOutput);            // to decimal
+  convertBinary("Hello"     , binaryOutput);  // to binary
+  decodeBinary (binaryOutput, decodedOutput); // to decimal
 ```
 
 ### `🧮` Hexadecimal Conversion  
