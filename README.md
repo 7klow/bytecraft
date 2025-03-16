@@ -34,7 +34,7 @@ Simply add `bytecraft.h` and `bytecraft.c` to your project, then include the hea
 
 ### `🔡` Base64 Encoding  
 ```c
-  void str2base64 (const char *base,   char *output); // Converts a string to base64
+  void str2base64 (const char *input,  char *output); // Converts a string to base64
   void base64tostr(const char *base64, char *output); // Decodes a base64 string into text (ASCII characters)
 ```
 
