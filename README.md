@@ -29,7 +29,7 @@ Simply add `bytecraft.h` and `bytecraft.c` to your project, then include the hea
 ### `🧮` Hexadecimal Conversion  
 ```c
   void str2hexa (const char *input, char *output);  // Converts a string to hexadecimal
-  void hexa2str (const char *hexa , char *output);   // Decodes a hexadecimal string into text (ASCII characters)
+  void hexa2str (const char *hexa , char *output);  // Decodes a hexadecimal string into text (ASCII characters)
 ```
 
 ### `🔡` Base64 Encoding  
