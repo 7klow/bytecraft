@@ -22,18 +22,20 @@ Simply add `bytecraft.h` and `bytecraft.c` to your project, then include the hea
 
 ### `🔢` Binary Conversion  
 ```c
-  convertBinary("Hello"     , binaryOutput);  // to binary
-  decodeBinary (binaryOutput, decodedOutput); // to decimal
+  void str2bin  (const char *input, char *output);  // Converts a string to binary
+  void bin2str  (const char *binary, char *output); // Decodes a binary string into text (ASCII characters)
 ```
 
 ### `🧮` Hexadecimal Conversion  
 ```c
-  SOON
+  void str2hexa (const char *input, char *output);  // Converts a string to hexadecimal
+  void hexa2str (const char *hexa , char *output);   // Decodes a hexadecimal string into text (ASCII characters)
 ```
 
 ### `🔡` Base64 Encoding  
 ```c
-  SOON
+  void str2base64 (const char *base,   char *output); // Converts a string to base64
+  void base64tostr(const char *base64, char *output); // Decodes a base64 string into text (ASCII characters)
 ```
 
 ## `🤝` Contributing  
