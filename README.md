@@ -42,4 +42,4 @@ Simply add `bytecraft.h` and `bytecraft.c` to your project, then include the hea
 Contributions are welcome! Open an issue or submit a pull request to add new features. `🛠️ ` 
 
 ## `📝` License  
-```This project is licensed under the MIT License 📜.```
+```This project is licensed under the GNU License 📜.```
